@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imagen {
+    border: 1px black solid;
+}
+
+img {
+    width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
