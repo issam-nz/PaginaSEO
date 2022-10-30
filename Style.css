@@ -3,15 +3,51 @@ main {
     justify-content: center;
     flex-direction: column;
 }
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a {
+    background-color: rgba(226, 150, 114, 0.575);
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 30px;
+}
 
 .imagen {
-    border: 1px black solid;
+    display: flex;
+    justify-content: center;
 }
 
 img {
-    width: 100%;
+    border: 1px solid rgba(226, 150, 114, 0.575);
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 600px;
 }
 
 .bold {
     font-weight: bold;
+}
+
+p.primer::first-letter {
+    color: red;
+    font-size: 200%;
+}
+
+nav a:link {
+     color: blue;
+}
+
+nav a:visited {
+     background-color: rgba(187, 79, 29, 0.575);
+     color: rgb(24, 121, 24);
+}
+
+nav a:hover {
+     color: red;
+     background-color: aqua;
 }
